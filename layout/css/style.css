@@ -24,16 +24,17 @@ body{
 	float: left;
 }
 
-.menu ul a{	
+.special{
 	border-right: black 2px solid;
+}
+
+.menu ul a{	
 	text-align: center;
 	float: left;
 	padding: 5px 10px;
 	}
 
-#special{
-	border: white 0px solid
-}
+
 .quote {
 	border: black 2px solid;
 	border-top-width: 0px;		

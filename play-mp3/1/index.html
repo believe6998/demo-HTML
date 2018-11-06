@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Play with mp3</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="header">
+    <div class="logo"><img src="https://cdn.designcrowd.com/blog/2016/June/make-music-day/3_300.png" alt=""></div>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Songs</a></li>
+            <li><a href="#">Playlist</a></li>
+            <li><a href="#">Ranking</a></li>
+            <li><a href="#">Video</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </div>
+</div>
+<div class="song-player">
+    <div class="song-detail">
+        <marquee behavior="scroll" direction="left">
+            <div class="current-song-title">
+                <span id="current-play-title"></span>
+            </div>
+        </marquee>
+    </div>
+    <div class="player">
+        <audio controls id="my-mp3" autoplay>
+            <source src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</div>
+<div class="list-song" id="list-song">
+</div>
+<script src="myjs.js"></script>
+</body>
+</html>

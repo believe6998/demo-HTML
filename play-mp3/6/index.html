@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Play with mp3</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<h1>Song i like</h1>
+<div class="song-player">
+    <div class="song-detail">
+        <marquee behavior="scroll" direction="left">
+            <div class="current-song-title">
+                <span id="current-play-title"></span>
+            </div>
+        </marquee>
+    </div>
+    <div class="player">
+        <audio controls id="my-mp3" autoplay>
+            <source src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</div>
+<div class="list-song" id="list-song">
+</div>
+<script src="myjs.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Songs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/latest-song.css">
+</head>
+<body>
+<div class="header">
+    <div class="logo"><a href="my-song.html"><img src="https://seeklogo.com/images/I/i-love-music-logo-5A5A255B2F-seeklogo.com.png" alt=""></a></div>
+    <div class="menu">
+        <ul>
+            <ul>
+                <li><a id="home-page" href="my-song.html">My Songs</a></li>
+                <li><a href="create-song.html">Create Songs</a></li>
+                <li><a href="latest-song.html">Latest Songs</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </ul>
+    </div>
+</div>
+<section class="sec1"></section>
+<div class="song-player">
+    <div class="current-song-img">
+        <img src="" id="current-play-img">
+    </div>
+    <div class="song-detail">
+        <marquee behavior="scroll" direction="right">
+            <div class="current-song-title">
+                <span id="current-play-title"></span>
+            </div>
+        </marquee>
+    </div>
+    <div class="player">
+        <audio controls id="my-mp3" autoplay>
+            <source src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</div>
+<div class="list-song" id="list-song">
+</div>
+<section id="footer" class="container-fluid">
+    <div class="boxContact">
+        Mọi ý kiến đóng góp xin gửi về <a href="phanhoainam6998@gmail.com"> Gmail </a> hoặc liên hệ với số điện thoai "0793245698".<br>
+    </div>
+    <div class="box-bug">
+        <h3 style="color: #4c4c4c">PHẢN HỒI</h3>
+        <ul>
+            <li><a href="#">Báo lỗi</a></li>
+            <li><a href="#">Trợ giúp</a></li>
+            <li><a href="#">Tư vấn</a></li>
+            <li><a href="#">Quảng cáo</a></li>
+        </ul>
+    </div>
+    <div class="box-brand">
+        <div class="box-img-brand">
+            <img src="https://seeklogo.com/images/I/i-love-music-logo-5A5A255B2F-seeklogo.com.png" alt="Brand">
+        </div>
+    </div>
+</section>
+</div>
+    <script src="../js/my-song.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Song</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/latest-song.css">
+    <link rel="stylesheet" href="../css/register-login.css">
+</head>
+<body>
+<div class="header">
+    <div class="logo"><a href="my-song.html"><img src="https://seeklogo.com/images/I/i-love-music-logo-5A5A255B2F-seeklogo.com.png" alt=""></a></div>
+    <div class="menu">
+        <ul>
+            <ul>
+                <li><a id="home-page" href="my-song.html">My Songs</a></li>
+                <li><a href="create-song.html">Create Songs</a></li>
+                <li><a href="latest-song.html">Latest Songs</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </ul>
+    </div>
+</div>
+<h1 id="song-form">Song form</h1>
+<div class="container">
+    <form action="#" name="register-form">
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="song-name" class="form-control">
+            <span class="danger-text hidden-text"></span>
+        </div>
+        <div class="form-group">
+            <label>Singer Name</label>
+            <input type="text" name="singer-name" class="form-control">
+            <span class="danger-text hidden-text"></span>
+        </div>
+        <div class="form-group">
+            <label>Description</label>
+            <textarea rows="4" cols="30" name="description" class="form-control"></textarea>
+            <!--<input type="text" name="description" class="form-control">-->
+        </div>
+        <div class="form-group">
+            <label>Author</label>
+            <input type="text" name="author" class="form-control">
+            <span class="danger-text hidden-text"></span>
+        </div>
+        <div class="form-group">
+            <label>Thumbnail</label>
+            <input type="text" name="thumbnail" class="form-control">
+            <span class="danger-text hidden-text"></span>
+        </div>
+        <div class="form-group">
+            <label>Link</label>
+            <input type="text" name="link" class="form-control">
+            <span class="danger-text hidden-text"></span>
+        </div>
+        <div class="form-group">
+            <label>&nbsp;</label>
+            <input type="button" name="btn-submit" class="form-control" value="Submit">
+            <input type="reset" name="btn-reset" class="form-control" value="Reset">
+        </div>
+    </form>
+</div>
+<section id="footer" class="container-fluid">
+    <div class="boxContact">
+        Mọi ý kiến đóng góp xin gửi về <a href="phanhoainam6998@gmail.com"> Gmail </a> hoặc liên hệ với số điện thoai
+        "0793245698".<br>
+    </div>
+    <div class="box-bug">
+        <h3 style="color: #4c4c4c">PHẢN HỒI</h3>
+        <ul>
+            <li><a href="#">Báo lỗi</a></li>
+            <li><a href="#">Trợ giúp</a></li>
+            <li><a href="#">Tư vấn</a></li>
+            <li><a href="#">Quảng cáo</a></li>
+        </ul>
+    </div>
+    <div class="box-brand">
+        <div class="box-img-brand">
+            <img src="https://seeklogo.com/images/I/i-love-music-logo-5A5A255B2F-seeklogo.com.png" alt="Brand">
+        </div>
+    </div>
+</section>
+<script src="../js/create-song.js"></script>
+</body>
+</html>

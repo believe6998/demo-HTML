@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.container {
+    padding-left: 500px;
+    padding-bottom: 50px;
+}
+
+.form-group {
+    margin: 15px
+
+}
+#song-form {
+    padding-left: 580px;
+}
+#login{
+    padding-left: 580px;
+}
+h1 {
+    padding-top: 30px;
+    padding-left: 550px;
+    font-family: 'Pacifico';
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+.hidden-text {
+    display: none;
+}
+
+.danger-text {
+    color: red;
+}
+
+.success-text {
+    color: green;
+}
+
+#address{
+    margin-bottom: 50px;
+}

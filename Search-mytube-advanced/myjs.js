@@ -33,7 +33,7 @@ function searchTubes() {
             for (var i = 0; i < jsObject.items.length; i++) {
                 var videoItem = '<div class="tube-item">';
                 videoItem += '<img onclick="doSomething(\'' + jsObject.items[i].id.videoId + '\')" class="video-thumb" src="' + jsObject.items[i].snippet.thumbnails.medium.url + '">';
-                videoItem += '<h3>' + jsObject.items[i].snippet.title + '</h3>';
+                videoItem += '<h3 class="snippet">' + jsObject.items[i].snippet.title + '</h3>';
                 videoItem += '</div>';
                 content += videoItem;
             }

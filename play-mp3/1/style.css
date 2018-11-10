@@ -1,9 +1,10 @@
 *{
     font-family: Tahoma;
     margin: 7px;
+    box-sizing: border-box;
 }
 .header{
-    background-color: #3affb9;
+    background-color: rgba(89, 89, 89, 0.9);
     border-bottom: 1px solid black;
     position: sticky;
     top: 0;
@@ -11,15 +12,16 @@
     width: 100%;
     height: 100px;
     /*padding: 10px 100px;*/
-    box-sizing: border-box;
 
 }
 
 .logo{
     float: left;
+    margin-left: 2%;
+
 }
 .logo img{
-    width: 25%;
+    width: 35%;
 
 }
 .menu ul {
@@ -36,7 +38,7 @@
     text-decoration: none;
     line-height: 80px;
     font-size: 20px;
-    color: #4c4c4c;
+    color: whitesmoke;
     padding: 2px 2px;
     font-family: 'Pacifico', cursive;
     transition: .5s;

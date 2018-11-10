@@ -1,4 +1,5 @@
-var Mp3_API = 'https://2-dot-backup-server-002.appspot.com/_api/v2/songs/get-free-songs';
+var MY_API = 'https://2-dot-backup-server-002.appspot.com/_api/v2/songs/get-free-songs';
+
 var xmlHttpRequest = new XMLHttpRequest();
 xmlHttpRequest.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
@@ -20,10 +21,8 @@ xmlHttpRequest.onreadystatechange = function () {
         document.getElementById('list-song').innerHTML = content;
     }
 }
-xmlHttpRequest.open('GET',Mp3_API, true);
-xmlHttpRequest.setRequestHeader("my", "application/json");
+xmlHttpRequest.open('GET', MY_API, true);
 xmlHttpRequest.send();
-
 
 function playSong(link, name, singer) {
     document.getElementById('my-mp3').src = link;

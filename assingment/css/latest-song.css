@@ -158,6 +158,14 @@ section.sec1 {
     font-size: 25px;
     color: #ffb122 ;
 }
+.song-control-detail:hover{
+    font-size: 25px;
+    color: #ffb122 ;
+}
+.song-control-download:hover{
+    font-size: 25px;
+    color: #ffb122 ;
+}
 .song-control:active{
     color: whitesmoke;
 }

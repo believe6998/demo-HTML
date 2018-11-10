@@ -12,7 +12,7 @@ xmlHttpRequest.onreadystatechange = function () {
             content += '</div>';
             content += '<div class="song-infor">';
             content += '<div class="song-name">' + listSong[i].name + '</div>';
-            content += '<div class="song-singer">' + listSong[i].singer + '</div>';
+               content += '<div class="song-singer">' + listSong[i].singer + '</div>';
             content += '</div>';
             content += '<div class="song-control" onclick="playSong(\'' + listSong[i].link + '\', \'' + listSong[i].name + '\', \'' + listSong[i].singer + '\',\'' + listSong[i].thumbnail + '\')">Play</div>';
             content += '<div><a class="song-control-detail" href="#">Detail</a></div>';
